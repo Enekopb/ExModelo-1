@@ -2,7 +2,7 @@
 FROM python:slim
 
 # Establecer como directorio de trabajo /code
-WORKDIR /code .
+WORKDIR /code 
 
 # Copiar los ficheros
 COPY . /code
